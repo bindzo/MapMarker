@@ -1,0 +1,84 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+*{
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.header h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: normal;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  margin: 20px;
+  display: flex;
+  height: 400px;
+}
+
+.map_container {
+  width: 60%;
+}
+
+.search {
+  width: 40%;
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.search_item {
+  padding: 15px 0;
+  width: 100%;
+  display:flex;
+}
+
+.search_your-location {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  border: none;
+  background: grey;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.search_input{
+  width: 100%;
+  padding: 10px;
+}
+
+.input{
+  width: 100%;
+}
+
+.search_submit {
+  margin: auto;
+  border: none;
+  background: grey;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+}
